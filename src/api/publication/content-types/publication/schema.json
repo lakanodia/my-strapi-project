@@ -15,7 +15,7 @@
     }
   },
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "pluginOptions": {
         "i18n": {
@@ -23,7 +23,7 @@
         }
       }
     },
-    "Cover": {
+    "cover": {
       "type": "media",
       "pluginOptions": {
         "i18n": {
@@ -35,15 +35,15 @@
         "images"
       ]
     },
-    "Description": {
-      "type": "text",
+    "description": {
+      "type": "richtext",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       }
     },
-    "Pdf": {
+    "pdf": {
       "type": "media",
       "pluginOptions": {
         "i18n": {

@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2025-10-07T18:07:50.836Z"
+    "x-generation-date": "2025-10-07T19:19:08.224Z"
   },
   "x-strapi-config": {
     "plugins": [
@@ -8243,10 +8243,10 @@
           "data": {
             "type": "object",
             "properties": {
-              "Title": {
+              "title": {
                 "type": "string"
               },
-              "Cover": {
+              "cover": {
                 "oneOf": [
                   {
                     "type": "integer"
@@ -8257,10 +8257,10 @@
                 ],
                 "example": "string or id"
               },
-              "Description": {
+              "description": {
                 "type": "string"
               },
-              "Pdf": {
+              "pdf": {
                 "oneOf": [
                   {
                     "type": "integer"
@@ -8361,10 +8361,10 @@
           "documentId": {
             "type": "string"
           },
-          "Title": {
+          "title": {
             "type": "string"
           },
-          "Cover": {
+          "cover": {
             "type": "object",
             "properties": {
               "id": {
@@ -8962,10 +8962,10 @@
               }
             }
           },
-          "Description": {
+          "description": {
             "type": "string"
           },
-          "Pdf": {
+          "pdf": {
             "type": "object",
             "properties": {
               "id": {
@@ -9413,10 +9413,10 @@
                 "documentId": {
                   "type": "string"
                 },
-                "Title": {
+                "title": {
                   "type": "string"
                 },
-                "Cover": {
+                "cover": {
                   "type": "object",
                   "properties": {
                     "id": {
@@ -9545,10 +9545,10 @@
                     }
                   }
                 },
-                "Description": {
+                "description": {
                   "type": "string"
                 },
-                "Pdf": {
+                "pdf": {
                   "type": "object",
                   "properties": {
                     "id": {

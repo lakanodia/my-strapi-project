@@ -566,7 +566,7 @@ export interface ApiPublicationPublication extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::category.category'
     >;
-    Cover: Schema.Attribute.Media<'images'> &
+    cover: Schema.Attribute.Media<'images'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -575,7 +575,7 @@ export interface ApiPublicationPublication extends Struct.CollectionTypeSchema {
     createdAt: Schema.Attribute.DateTime;
     createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    Description: Schema.Attribute.Text &
+    description: Schema.Attribute.RichText &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
@@ -586,14 +586,14 @@ export interface ApiPublicationPublication extends Struct.CollectionTypeSchema {
       'oneToMany',
       'api::publication.publication'
     >;
-    Pdf: Schema.Attribute.Media<'files'> &
+    pdf: Schema.Attribute.Media<'files'> &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
         };
       }>;
     publishedAt: Schema.Attribute.DateTime;
-    Title: Schema.Attribute.String &
+    title: Schema.Attribute.String &
       Schema.Attribute.SetPluginOptions<{
         i18n: {
           localized: true;
